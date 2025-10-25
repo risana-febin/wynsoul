@@ -1,0 +1,127 @@
+final List<Map<String, dynamic>> places3 = [
+  {
+    'name': 'Muthanga Wildlife Sanctuary',
+    'category': 'Forest',
+    'image':
+        'https://cdn.tripuntold.com/media/photos/location/2019/03/23/d2c001d4-61ee-4bed-b9be-27469cc02e4c.jpg',
+    'Ticket': 'Free',
+    'Timing': '6 AM - 5 PM',
+    'phone': '1112223333',
+    'link': 'https://goo.gl/maps/example3',
+    'images': [
+      'https://www.dtpcwayanad.com/uploads/picture_gallery/gallery_images/muthanga-wildlife-20230429170248643701.webp',
+      'https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/muthanga-wildlife-sanctuary.jpg',
+    ],
+  },
+  {
+    'name': 'Phantom Rock',
+    'category': 'Rock',
+    'image':
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/29/25/2b/phantom-rock.jpg?w=1200&h=-1&s=1',
+    'Ticket': 'Free',
+    'Timing': '6 AM - 5 PM',
+    'phone': '4445556666',
+    'link': 'https://goo.gl/maps/example4',
+    'images': [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e9/28/c7/caption.jpg?w=900&h=-1&s=1',
+      'https://content.jdmagicbox.com/comp/wayanad/n8/9999p4936.4936.170928155047.p1n8/catalogue/phantom-rock-wayanad-ypan7ktyyi.jpg',
+    ],
+  },
+  {
+    'name': 'Myladi para',
+    'category': 'Rock',
+    'image':
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNvjxN8-Wo5AkuUzPYfSegU4tLmHzAqEFJC0XsxDj3o7WDHJMamg8E7NlzDG0ek8rC2UI&usqp=CAU',
+    'Ticket': 'Free',
+    'Timing': '6 AM - 5 PM',
+    'phone': '4445556666',
+    'link': 'https://goo.gl/maps/example4',
+    'images': [
+      'https://content3.jdmagicbox.com/comp/wayanad/y7/9999p4936.4936.180530043733.m2y7/catalogue/myladipara-kalpetta-wayanad-tourist-attraction-tkp95i7n2w.jpg',
+      'https://content.jdmagicbox.com/comp/wayanad/y7/9999p4936.4936.180530043733.m2y7/catalogue/myladipara-kalpetta-wayanad-sz5bzu0b0l.jpg',
+    ],
+  },
+  {
+    'name': 'Kurumbalakkotta',
+    'category': 'Hill',
+    'image':
+        'https://visit-wayanad.com/wp-content/uploads/2024/10/kurumbalakotta-768x768.jpg',
+    'Ticket': 'Free',
+    'Timing': '6 AM - 5 PM',
+    'phone': '4445556666',
+    'link': 'https://goo.gl/maps/example4',
+    'images': [
+      'https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fmobile%2Fkurumbalakkotta-1723622249_a275dabb665a3c187369.webp&w=3840&q=75',
+      'https://content.jdmagicbox.com/v2/comp/wayanad/p2/9999p4936.4936.191017200031.c1p2/catalogue/kurumbalakotta-sunrice-viewpoint-kalpetta-wayanad-resorts-GCOJH1yROQ-250.jpg',
+    ],
+  },
+  {
+    'name': 'Pookkod Lake',
+    'category': 'Lake',
+    'image':
+        'https://www.wayanad.com/admin/userfiles/1494571003_pookode-lake1.jpg',
+    'Ticket': 'Free',
+    'Timing': '6 AM - 5 PM',
+    'phone': '4445556666',
+    'link': 'https://goo.gl/maps/example4',
+    'images': [
+      'https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Fmobile%2Fpookode-lake-wayanad-1727439821_8e84583ef3a13d457913.webp&w=3840&q=75',
+      'https://dayon.in/wp-content/uploads/2024/07/366462692_588020873507833_5328776880971631214_n-2.jpg',
+    ],
+  },
+  {
+    'name': 'Attamala View Point',
+    'category': 'Hill',
+    'image':
+        'https://www.trawell.in/admin/images/upload/011117245attamala-viewpoint.jpg',
+    'Ticket': 'Free',
+    'Timing': '6 AM - 5 PM',
+    'phone': '4445556666',
+    'link': 'https://goo.gl/maps/example4',
+    'images': [
+      'https://files.yappe.in/place/full/attamala-view-point-9259504.webp',
+      'https://www.wayanad.com/admin/userfiles/1675247526_attamala-wayanad-1.jpg',
+    ],
+  },
+  {
+    'name': 'Karlad Lake',
+    'category': 'Lake',
+    'image':
+        'https://www.keralatourism.org/_next/image/?url=http%3A%2F%2F127.0.0.1%2Fktadmin%2Fimg%2Fpages%2Flarge-desktop%2Fkarlad-lake-1743054109_090982a64176163e501c.webp&w=1920&q=75',
+    'Ticket': 'Free',
+    'Timing': '6 AM - 5 PM',
+    'phone': '4445556666',
+    'link': 'https://goo.gl/maps/example4',
+    'images': [
+      'https://hiwayanad.in/tourism/karladlake/1.jpg',
+      'https://cdn.tripuntold.com/media/photos/location/2021/02/16/8b5905fd-aad9-4b22-8c81-5df3a7ce9f05.jpg',
+    ],
+  },
+  {
+    'name': 'Edakkal Caves',
+    'category': 'Rock',
+    'image':
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg4WXmI8vew8kBfgFcZpEmiQ0H_YskKmVD8A&s',
+    'Ticket': 'Free',
+    'Timing': '6 AM - 5 PM',
+    'phone': '4445556666',
+    'link': 'https://goo.gl/maps/example4',
+    'images': [
+      'https://upload.wikimedia.org/wikipedia/commons/d/da/Edakkalcave.jpg',
+      'https://wayanadtourism.co.in/images//tourist-places/edakkal-caves-wayanad/edakkal-caves-wayanad-india-tourism-history.jpg',
+    ],
+  },
+  {
+    'name': 'Tholpetty Wildlife Santuary',
+    'category': 'Forest',
+    'image': 'https://trip2kerala.com/wp-content/uploads/2022/04/2-1.jpg',
+    'Ticket': 'Free',
+    'Timing': '6 AM - 5 PM',
+    'phone': '4445556666',
+    'link': 'https://goo.gl/maps/example4',
+    'images': [
+      'https://kuruvaislandresort.com/img/places/tholpetty-03.webp',
+      'https://media-cdn.tripadvisor.com/media/photo-s/08/44/d6/bd/wayanad-wildlife-sanctuary.jpg',
+    ],
+  },
+];
