@@ -1,0 +1,142 @@
+final List<Map<String, dynamic>> places1 = [
+  {
+    'name': 'Meenmutty Waterfall',
+    'category': 'Waterfall',
+    'image':
+        'https://www.tourmyindia.com/states/kerala/images/Meenmutty-Falls-Wayanad-1.jpg',
+    'Ticket': '50 INR',
+    'Timing': '9 AM - 5 PM',
+    'phone': '1234567890',
+    'link': 'https://goo.gl/maps/example1',
+    'images': [
+      'https://keralabee.com/wp-content/uploads/2023/07/IMG_20230729_001353-jpg.webp',
+      'https://visit-wayanad.com/wp-content/uploads/2024/10/Makkiyad-Meenmutty-Waterfalls-Wayanad.jpg',
+      'https://visit-wayanad.com/wp-content/uploads/2024/10/Meenmutty-Waterfalls-Makkiyad-768x768.jpg',
+    ],
+  },
+  {
+    'name': 'En ooru',
+    'category': 'Hill',
+    'image':
+        'https://tripinic.com/wp-content/uploads/2024/05/En-Ooru-Tribal-Heritage-Village.jpg',
+    'Ticket': '40 INR',
+    'Timing': '8 AM - 6 PM',
+    'phone': '0987654321',
+    'link': 'https://goo.gl/maps/example2',
+    'images': [
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFr-cRWMSsoGlAciIwvDVkdXoMXssEBM3k-gTzioYhZjAPDzAC5MT3zx3dj3CzH6sazkw&usqp=CAU',
+      'https://cdn.tripuntold.com/media/photos/location/2022/11/25/c34c572b-e157-4b76-9162-744be4e36a71.jpg',
+    ],
+  },
+  {
+    'name': 'Untratech Park',
+    'category': 'Park',
+    'image':
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3_-ahsm8T1LcC9aIzyvBGDRyDEosHqcl6Hg&s',
+    'Ticket': '40 INR',
+    'Timing': '8 AM - 6 PM',
+    'phone': '0987654321',
+    'link': 'https://goo.gl/maps/example2',
+    'images': [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/03/39/db/caption.jpg?w=900&h=500&s=1',
+      'https://www.ultrapark.in/img/gallery_img1.jpg',
+    ],
+  },
+  {
+    'name': 'Soochipara WaterFalls',
+    'category': 'Waterfall',
+    'image':
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LYuyjJBseIOUjf29u12xF9eAVs35juMYxQ&s',
+    'Ticket': '40 INR',
+    'Timing': '8 AM - 6 PM',
+    'phone': '0987654321',
+    'link': 'https://goo.gl/maps/example2',
+    'images': [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/f9/74/6f/dsc-0298-largejpg.jpg?w=1200&h=-1&s=1',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpoKj16YXW-raFMiCEwDl_hDd9yRxcPHMWoA&s',
+    ],
+  },
+  {
+    'name': 'Lalaland  Adventure Park',
+    'category': 'Park',
+    'image':
+        'https://content3.jdmagicbox.com/v2/comp/wayanad/w7/9999p4936.4936.240102193135.x7w7/catalogue/lala-land-adventure-park-and-field-of-lights-chundale-wayanad-parks-3b5YCvzH4o.jpg',
+    'Ticket': '40 INR',
+    'Timing': '8 AM - 6 PM',
+    'phone': '0987654321',
+    'link': 'https://goo.gl/maps/example2',
+    'images': [
+      'https://content3.jdmagicbox.com/v2/comp/wayanad/w7/9999p4936.4936.240102193135.x7w7/catalogue/lala-land-adventure-park-and-field-of-lights-chundale-wayanad-parks-ApOXCxs5l4.jpg',
+      'https://vythiripark.com/media/images/gallery/0H8A7663_copy.jpg',
+    ],
+  },
+  {
+    'name': 'Vythiri Park',
+    'category': 'Park',
+    'image': 'https://vythiripark.com/media/images/gallery/1000119733.jpg',
+    'Ticket': '40 INR',
+    'Timing': '8 AM - 6 PM',
+    'phone': '0987654321',
+    'link': 'https://goo.gl/maps/example2',
+    'images': [
+      'https://vythiripark.com/media/images/gallery/1000119737_Pml0uYK.jpg',
+      'https://vythiripark.com/media/images/gallery/1000117088.jpg',
+    ],
+  },
+  {
+    'name': 'Chain tree',
+    'category': 'All',
+    'image':
+        'https://wayanadtourism.co.in/images/places-to-visit/headers/chain-tree-wayanad-tourism-entry-fee-timings-holidays-reviews-header.jpg',
+    'Ticket': '40 INR',
+    'Timing': '8 AM - 6 PM',
+    'phone': '0987654321',
+    'link': 'https://goo.gl/maps/example2',
+    'images': [
+      'https://wriedwrould.wordpress.com/wp-content/uploads/2016/09/fb_img_1473307317397.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUISNfIuPpMIKr1oqo7dDLzKCa2IbMtIsTW2HqwdkRJhEry_xu2C72b1g1NYEzBzk5GYQ&usqp=CAU',
+    ],
+  },
+  {
+    'name': 'Banasura sagar Dam',
+    'category': 'Dam',
+    'image':
+        'https://www.mywayanad.com/wp-content/uploads/2022/08/Banasura-Sagar-Dam-3-Wayanad.jpg',
+    'Ticket': '40 INR',
+    'Timing': '8 AM - 6 PM',
+    'phone': '0987654321',
+    'link': 'https://goo.gl/maps/example2',
+    'images': [
+      'https://www.tourmyindia.com/states/kerala/images/Banasura-Sagar-Dam-Wayanad-4.jpg',
+      'https://www.dtpcwayanad.com/uploads/picture_gallery/gallery_images/banasura-sagar-dam-wayanad-43-20230429183921377875.webp',
+    ],
+  },
+  {
+    'name': 'Karappuzha Dam',
+    'category': 'Dam',
+    'image':
+        'https://www.irrigation.kerala.gov.in/sites/default/files/2021-09/Karapuzha.jpg',
+    'Ticket': '40 INR',
+    'Timing': '8 AM - 6 PM',
+    'phone': '0987654321',
+    'link': 'https://goo.gl/maps/example2',
+    'images': [
+      'https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/14/18e3c7ad7836583e23b3bb57778fc46d_1000x1000.jpg',
+      'https://framerusercontent.com/images/8H5YhblbXNMGZibbKyUd55SHk.jpg?width=1150&height=768',
+    ],
+  },
+  {
+    'name': 'Karappuzha Adventure Park',
+    'category': 'Park',
+    'image':
+        'https://www.dtpcwayanad.com/uploads/picture_gallery/gallery_images/karappuzha-dam-wayanad-6-20230429185056480109.webp',
+    'Ticket': '40 INR',
+    'Timing': '8 AM - 6 PM',
+    'phone': '0987654321',
+    'link': 'https://goo.gl/maps/example2',
+    'images': [
+      'https://visit-wayanad.com/wp-content/uploads/2024/10/karapuzha-adventure-zone-768x768.jpg',
+      'https://visit-wayanad.com/wp-content/uploads/2024/10/Karapuzha-Adventure-Park-768x768.jpg',
+    ],
+  },
+];
