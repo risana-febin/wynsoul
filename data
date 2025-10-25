@@ -1,0 +1,14 @@
+import './place1.dart';
+import './place3.dart';
+import './place4.dart';
+
+final List<Map<String, dynamic>> places = [...places1, ...places3, ...places4];
+
+Map<String, int> getCategoryCounts() {
+  final Map<String, int> counts = {};
+  for (var place in places) {
+    final category = place['category'] ?? 'Unknown';
+    counts[category] = (counts[category] ?? 0) + 1;
+  }
+  return counts;
+}
