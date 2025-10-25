@@ -1,0 +1,67 @@
+import 'package:flutter/material.dart';
+import 'package:video_player/video_player.dart';
+
+class VideoExample extends StatefulWidget {
+  const VideoExample({super.key});
+
+  @override
+  State<VideoExample> createState() => _VideoExampleState();
+}
+
+class _VideoExampleState extends State<VideoExample> {
+  late VideoPlayerController _controller;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = VideoPlayerController.asset('assets/v2.mp4')
+      ..initialize().then((_) {
+        _controller.setLooping(true);
+        _controller.play();
+        setState(() {}); // Refresh UI when video initializes
+      });
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final screenWidth = MediaQuery.of(context).size.width;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        _controller.value.isInitialized
+            ? ClipRRect(
+                borderRadius: BorderRadius.circular(12),
+                child: SizedBox(
+                  width: screenWidth,
+                  height: 250,
+                  child: AspectRatio(
+                    aspectRatio: _controller.value.aspectRatio,
+                    child: VideoPlayer(_controller),
+                  ),
+                ),
+              )
+            : const SizedBox(
+                height: 250,
+                child: Center(child: CircularProgressIndicator()),
+              ),
+        const SizedBox(height: 12),
+        const Text(
+          "Explore the Beauty of Wayanad!",
+          style: TextStyle(
+            fontSize: 18,
+            color: Color.fromARGB(255, 4, 46, 5),
+            fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
+      ],
+    );
+  }
+}
