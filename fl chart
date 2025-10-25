@@ -1,0 +1,94 @@
+import 'package:flutter/material.dart';
+import 'package:fl_chart/fl_chart.dart';
+import './data.dart';
+
+class Fi extends StatefulWidget {
+  const Fi({super.key});
+
+  @override
+  State<Fi> createState() => _FiState();
+}
+
+class _FiState extends State<Fi> {
+  @override
+  Widget build(BuildContext context) {
+    final categoryCounts = getCategoryCounts();
+    final categories = categoryCounts.keys.toList();
+    final values = categoryCounts.values.toList();
+
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          'Category Statistics',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
+        centerTitle: true,
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: categories.isEmpty
+            ? const Center(child: Text('No category data available'))
+            : Column(
+                children: [
+                  const Text(
+                    'Number of Places by Category',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 16),
+                  Expanded(
+                    child: BarChart(
+                      BarChartData(
+                        alignment: BarChartAlignment.spaceAround,
+                        titlesData: FlTitlesData(
+                          leftTitles: AxisTitles(
+                            sideTitles: SideTitles(
+                              showTitles: true,
+                              reservedSize: 30,
+                            ),
+                          ),
+                          bottomTitles: AxisTitles(
+                            sideTitles: SideTitles(
+                              showTitles: true,
+                              getTitlesWidget: (value, meta) {
+                                final index = value.toInt();
+                                if (index < 0 || index >= categories.length) {
+                                  return const SizedBox.shrink();
+                                }
+                                return Text(
+                                  categories[index],
+                                  style: const TextStyle(fontSize: 10),
+                                );
+                              },
+                            ),
+                          ),
+                          topTitles: AxisTitles(
+                            sideTitles: SideTitles(showTitles: false),
+                          ),
+                          rightTitles: AxisTitles(
+                            sideTitles: SideTitles(showTitles: false),
+                          ),
+                        ),
+                        borderData: FlBorderData(show: false),
+                        barGroups: List.generate(
+                          categories.length,
+                          (index) => BarChartGroupData(
+                            x: index,
+                            barRods: [
+                              BarChartRodData(
+                                toY: values[index].toDouble(),
+                                width: 18,
+                                borderRadius: BorderRadius.circular(6),
+                                color: Colors.green,
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+      ),
+    );
+  }
+}
